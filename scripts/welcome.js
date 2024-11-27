@@ -83,7 +83,7 @@ const createRepo = (token, name) => {
   const AUTHENTICATION_URL = 'https://api.github.com/user/repos';
   let data = {
     name,
-    private: true,
+    private: false,
     auto_init: true,
     description:
       'Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v3](https://github.com/raphaelheinz/LeetHub-3.0)',
